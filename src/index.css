@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-ruler {
+  background-image: url(rule.png);
+}
+
+.bg-repeat-y {
+  background-repeat: repeat-y;
+}
+.bg-rules{
+  background-image: url(rule-copy.png);
+}
+.bg-repeat-x {
+  background-repeat: repeat-x;
 }
