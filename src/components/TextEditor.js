@@ -1,11 +1,8 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import { EditorState } from "draft-js";
-import { Link } from "react-router-dom";
-import { Icon, Button } from "@material-tailwind/react";
 import {
-  MdOutlineStarRate,
   MdDriveFileMoveOutline,
   MdOutlineAdd,
 } from "react-icons/md";
